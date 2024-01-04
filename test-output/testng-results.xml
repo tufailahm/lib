@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="7" passed="7" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-01-04T10:51:25 IST" name="Default suite" finished-at="2024-01-04T10:51:26 IST" duration-ms="1318">
+    <groups>
+      <group name="rameshtest">
+        <method signature="CalculatorTest.testAddNumbers5()[pri:0, instance:com.training.cms.CalculatorTest@5db6b9cd]" name="testAddNumbers5" class="com.training.cms.CalculatorTest"/>
+        <method signature="CalculatorTest.testDiv1()[pri:0, instance:com.training.cms.CalculatorTest@5db6b9cd]" name="testDiv1" class="com.training.cms.CalculatorTest"/>
+        <method signature="CalculatorTest.testDiv2()[pri:0, instance:com.training.cms.CalculatorTest@5db6b9cd]" name="testDiv2" class="com.training.cms.CalculatorTest"/>
+        <method signature="CalculatorTest.testAddNumbers2(java.lang.Integer)[pri:1, instance:com.training.cms.CalculatorTest@5db6b9cd]" name="testAddNumbers2" class="com.training.cms.CalculatorTest"/>
+        <method signature="CalculatorTest.testAddNumbers3()[pri:2, instance:com.training.cms.CalculatorTest@5db6b9cd]" name="testAddNumbers3" class="com.training.cms.CalculatorTest"/>
+        <method signature="CalculatorTest.testAddNumbers1(java.lang.Integer,java.lang.Integer)[pri:3, instance:com.training.cms.CalculatorTest@5db6b9cd]" name="testAddNumbers1" class="com.training.cms.CalculatorTest"/>
+        <method signature="CalculatorTest.testAddNumbers4()[pri:3, instance:com.training.cms.CalculatorTest@5db6b9cd]" name="testAddNumbers4" class="com.training.cms.CalculatorTest"/>
+      </group> <!-- rameshtest -->
+      <group name="weeklytest">
+        <method signature="CalculatorTest.testAddNumbers1(java.lang.Integer,java.lang.Integer)[pri:3, instance:com.training.cms.CalculatorTest@5db6b9cd]" name="testAddNumbers1" class="com.training.cms.CalculatorTest"/>
+      </group> <!-- weeklytest -->
+    </groups>
+    <test started-at="2024-01-04T10:51:25 IST" name="Default test" finished-at="2024-01-04T10:51:26 IST" duration-ms="1318">
+      <class name="com.training.cms.CalculatorTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.training.cms.CalculatorTest@5db6b9cd]" started-at="2024-01-04T10:51:25 IST" name="setup" finished-at="2024-01-04T10:51:25 IST" duration-ms="34" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="settingUpMethod()[pri:0, instance:com.training.cms.CalculatorTest@5db6b9cd]" started-at="2024-01-04T10:51:25 IST" name="settingUpMethod" finished-at="2024-01-04T10:51:25 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- settingUpMethod -->
+        <test-method signature="testAddNumbers5()[pri:0, instance:com.training.cms.CalculatorTest@5db6b9cd]" started-at="2024-01-04T10:51:25 IST" name="testAddNumbers5" finished-at="2024-01-04T10:51:25 IST" duration-ms="8" status="PASS">
+          <exception class="java.lang.NumberFormatException">
+            <message>
+              <![CDATA[For input string: "ddasd"]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.NumberFormatException: For input string: "ddasd"
+at java.base/java.lang.NumberFormatException.forInputString(NumberFormatException.java:65)
+at java.base/java.lang.Integer.parseInt(Integer.java:652)
+at java.base/java.lang.Integer.parseInt(Integer.java:770)
+at com.training.cms.Calculator.addNumbers(Calculator.java:11)
+at com.training.cms.CalculatorTest.testAddNumbers5(CalculatorTest.java:77)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+at org.testng.TestRunner.privateRun(TestRunner.java:848)
+at org.testng.TestRunner.run(TestRunner.java:621)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1280)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1200)
+at org.testng.TestNG.runSuites(TestNG.java:1114)
+at org.testng.TestNG.run(TestNG.java:1082)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NumberFormatException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAddNumbers5 -->
+        <test-method is-config="true" signature="settingUpMethod()[pri:0, instance:com.training.cms.CalculatorTest@5db6b9cd]" started-at="2024-01-04T10:51:25 IST" name="settingUpMethod" finished-at="2024-01-04T10:51:25 IST" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- settingUpMethod -->
+        <test-method signature="testDiv1()[pri:0, instance:com.training.cms.CalculatorTest@5db6b9cd]" started-at="2024-01-04T10:51:25 IST" name="testDiv1" finished-at="2024-01-04T10:51:25 IST" duration-ms="11" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDiv1 -->
+        <test-method is-config="true" signature="settingUpMethod()[pri:0, instance:com.training.cms.CalculatorTest@5db6b9cd]" started-at="2024-01-04T10:51:25 IST" name="settingUpMethod" finished-at="2024-01-04T10:51:25 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- settingUpMethod -->
+        <test-method signature="testDiv2()[pri:0, instance:com.training.cms.CalculatorTest@5db6b9cd]" started-at="2024-01-04T10:51:25 IST" name="testDiv2" finished-at="2024-01-04T10:51:25 IST" duration-ms="3" status="PASS">
+          <exception class="java.lang.ArithmeticException">
+            <message>
+              <![CDATA[/ by zero]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.ArithmeticException: / by zero
+at com.training.cms.Calculator.div(Calculator.java:14)
+at com.training.cms.CalculatorTest.testDiv2(CalculatorTest.java:92)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+at org.testng.TestRunner.privateRun(TestRunner.java:848)
+at org.testng.TestRunner.run(TestRunner.java:621)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1280)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1200)
+at org.testng.TestNG.runSuites(TestNG.java:1114)
+at org.testng.TestNG.run(TestNG.java:1082)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.ArithmeticException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDiv2 -->
+        <test-method is-config="true" signature="settingUpMethod()[pri:0, instance:com.training.cms.CalculatorTest@5db6b9cd]" started-at="2024-01-04T10:51:25 IST" name="settingUpMethod" finished-at="2024-01-04T10:51:25 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- settingUpMethod -->
+        <test-method signature="testAddNumbers2(java.lang.Integer)[pri:1, instance:com.training.cms.CalculatorTest@5db6b9cd]" started-at="2024-01-04T10:51:25 IST" name="testAddNumbers2" finished-at="2024-01-04T10:51:25 IST" duration-ms="3" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[22]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAddNumbers2 -->
+        <test-method is-config="true" signature="settingUpMethod()[pri:0, instance:com.training.cms.CalculatorTest@5db6b9cd]" started-at="2024-01-04T10:51:25 IST" name="settingUpMethod" finished-at="2024-01-04T10:51:25 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- settingUpMethod -->
+        <test-method signature="testAddNumbers3()[pri:2, instance:com.training.cms.CalculatorTest@5db6b9cd]" started-at="2024-01-04T10:51:25 IST" name="testAddNumbers3" finished-at="2024-01-04T10:51:25 IST" duration-ms="5" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAddNumbers3 -->
+        <test-method is-config="true" signature="settingUpMethod()[pri:0, instance:com.training.cms.CalculatorTest@5db6b9cd]" started-at="2024-01-04T10:51:25 IST" name="settingUpMethod" finished-at="2024-01-04T10:51:25 IST" duration-ms="11" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- settingUpMethod -->
+        <test-method signature="testAddNumbers1(java.lang.Integer,java.lang.Integer)[pri:3, instance:com.training.cms.CalculatorTest@5db6b9cd]" started-at="2024-01-04T10:51:25 IST" name="testAddNumbers1" finished-at="2024-01-04T10:51:26 IST" duration-ms="1051" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[49]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAddNumbers1 -->
+        <test-method is-config="true" signature="settingUpMethod()[pri:0, instance:com.training.cms.CalculatorTest@5db6b9cd]" started-at="2024-01-04T10:51:26 IST" name="settingUpMethod" finished-at="2024-01-04T10:51:26 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- settingUpMethod -->
+        <test-method signature="testAddNumbers4()[pri:3, instance:com.training.cms.CalculatorTest@5db6b9cd]" started-at="2024-01-04T10:51:26 IST" name="testAddNumbers4" finished-at="2024-01-04T10:51:26 IST" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAddNumbers4 -->
+        <test-method is-config="true" signature="doCleanupWork()[pri:0, instance:com.training.cms.CalculatorTest@5db6b9cd]" started-at="2024-01-04T10:51:26 IST" name="doCleanupWork" finished-at="2024-01-04T10:51:26 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- doCleanupWork -->
+      </class> <!-- com.training.cms.CalculatorTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

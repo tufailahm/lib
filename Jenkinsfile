@@ -7,4 +7,7 @@ pipeline
 				{ 
 					stage('build') 
 						{ 
-						steps { echo "Hello Ramesh"!" } } } }
+						steps { echo "Hello Ramesh!" } 
+				} 
+	}
+ }
